@@ -1,0 +1,102 @@
+  <h1 class=" text-center pt-4">Sobre Mim</h1>
+    <div id="wrapper_about" class="d-flex justify-content-evenly p-5 ">
+      <div class="img_about me-5">
+        <figure>
+          <img src="assets/img/sobre.jpeg" class=" img-fluid  " alt="imagem sobre">
+          <figcaption class="text-center text-white mt-2">Leandro Rodrigues</figcaption>
+        </figure>
+      </div>
+      <div class="text_about text-justify ">
+
+        <p> Olá, obrigado pela visita.</p>
+        <p>
+          Sou Leandro, iniciando a carreira de Desenvolvedor Frontend, buscando a primeira oportunidade no
+          mercado de desenvolvimento web. Atualmente, estou cursando Desenvolvimento de Sistemas na Fatec-BS,
+          em Santos. Para atender as demandas do mercado, estudo as tecnologias mais utilizadas do mercado,
+          através dos cursos da Udemy, canais do Youtube (Alura, Origamid, Curso em vídeo), livros e a
+          própria documentação oficial da linguagem ou framework.
+          As tecnologias que atualmente utilizo são HTML5, CSS3, Javascript e Bootstrap5, pretendo consolidar cada vez
+          mais essa base de conhecimento e me aperfeiçoar em ReactJS, o qual já possuo algumas noções básicas.
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mb-3  ">
+    <a class="btn " href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
+      <i class="bi bi-linkedin"></i>
+
+    </a>
+    <a class="btn " href="https://github.com/lefrodrigues" role="button">
+      <i class="bi bi-github"></i>
+    </a>
+    <a class="btn " href="https://wa.me/5513992074483" role="button">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+  </div>
+  </section>
+
+  <section id="contact">
+    <h1 class="mb-3 text-center p-4">Contato</h1>
+    <div class="">
+      <div class="contact d-flex flex-column justify-content-evenly">
+        <div class="text-center"><!-- Links -->
+          <div>
+            <p><i class="bi bi-person"></i> Leandro Rodrigues</p>
+            <p><i class="bi bi-geo-alt"></i></i> Jd.Castelo, Santos-SP</p>
+            <p><i class="bi bi-envelope"></i> l.frodrigues@outlook.com</p>
+            <p><i class="bi bi-telephone"></i> (13) 99207-4483</p>
+          </div>
+          <div>
+            <a class="btn " href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
+              <i class="bi bi-linkedin"></i>
+
+            </a>
+            <a class="btn " href="https://github.com/lefrodrigues" role="button">
+              <i class="bi bi-github"></i>
+            </a>
+            <a class="btn " href="https://wa.me/5513992074483" role="button">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <form action="https://formsubmit.co/l.frodrigues@outlook.com" method="POST">
+
+          <!-- Name input -->
+          <div class="form-outline  mb-4">
+            <input type="text" id="formLabel" name="name" required class="form-control" />
+            <label class="form-label" for="formLabel">Nome</label>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="formLabel" name="email" required class="form-control" />
+            <label class="form-label" for="formLabel">Email </label>
+          </div>
+
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="formTextArea" name="message" required rows="4"></textarea>
+            <label class="form-label" for="formTextArea">Mensagem</label>
+          </div>
+
+          <!-- Submit button -->
+          <button type="submit" id="btn_send" class="btn  btn-block mb-4"> Enviar <i class="bi bi-send"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+  <div class="skills-container p-3 mb-4">
+      <h2 class="mb-1 text-center p-4">Skills:</h2>
+      <div class="img_skills bg-transparent img-fluid"><img src="/assets/img/html-5.png" href="html5">
+      </div>
+      <div class="img_skills img-fluid"><img src="/assets/img/css-3.png" href="css3">
+      </div>
+      <div class="img_skills img-fluid"><img src="/assets/img/js.png" href="javascript">
+      </div>
+      <div class="img_skills img-fluid"><img src="/assets/img/bootstrap.png" href="bootstrap5">
+      </div>
+    </div>

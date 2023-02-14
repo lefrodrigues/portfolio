@@ -37,6 +37,8 @@ p {
 
 section {
   box-shadow: 0px 3px 10px #464646;
+  width: 100%;
+  height: 100vh;
 }
 
 /*----End Tags---*/
@@ -92,30 +94,57 @@ section {
 
 /*----About---*/
 
-#about {
-  height: 100vh;
+.title_about{
+  text-align: center;
+  margin-top: 20px;
 }
 
 .img_about img {
-  width: 200px;
+width: 150px;
+margin-bottom: 20px;
   border-radius: 5%;
   box-shadow: 0px 3px 10px #7e7e7e;
+  align-self: center;
+
 }
+
+.content_about{
+align-content: center;
+
+
+}
+
+.text_about{
+  margin:20px;
+  border: 1px solid #ffff;
+  border-radius: 8px;
+  margin-bottom: 140px;
+  
+}
+
+
+.text_about p{
+  padding: 3rem;
+  padding-bottom: 8rem;
+  margin-bottom: 10px;
+
+  
+}
+
+
+
 /*----End About---*/
 
 /*----Projects---*/
 
-.skills-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  box-shadow: 0px 3px 10px #7e7e7e;
-  background-color: #181818;
-}
 
 #projects {
   height: 100vh;
   width: 100%;
+}
+
+#img_projects{
+  width: 100px;
 }
 
 /*----End Projects---*/
