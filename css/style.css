@@ -94,57 +94,37 @@ section {
 
 /*----About---*/
 
-.title_about{
-  text-align: center;
-  margin-top: 20px;
-}
-
 .img_about img {
-width: 150px;
-margin-bottom: 20px;
+  width: 200px;
+  margin-bottom: 20px;
   border-radius: 5%;
   box-shadow: 0px 3px 10px #7e7e7e;
-  align-self: center;
-
 }
 
-.content_about{
-align-content: center;
-
-
+.content_about {
+  align-content: center;
 }
 
-.text_about{
-  margin:20px;
+.text_about {
+  margin: 20px;
   border: 1px solid #ffff;
   border-radius: 8px;
   margin-bottom: 140px;
-  
 }
 
-
-.text_about p{
+.text_about p {
   padding: 3rem;
   padding-bottom: 8rem;
   margin-bottom: 10px;
-
-  
 }
-
-
 
 /*----End About---*/
 
 /*----Projects---*/
 
-
 #projects {
   height: 100vh;
   width: 100%;
-}
-
-#img_projects{
-  width: 100px;
 }
 
 /*----End Projects---*/
@@ -173,9 +153,6 @@ align-content: center;
 }
 
 .menu_footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   font-size: 20px;
   transition: all 0.3s;
 }
@@ -184,12 +161,4 @@ align-content: center;
   color: #ff0000 !important;
 }
 
-iframe {
-  border-radius: 3px;
-}
-
-.container_contact {
-  display: flex;
-  justify-content: center;
-}
 /*----End Footer---*/
