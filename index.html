@@ -25,7 +25,7 @@
 <body>
   <!----Button Scroll-Top-->
 
-  <a class="btn_scrolltop d-none" href="#home"><img src="/assets/img/up-arrow.png" alt="scroll"></a>
+  <a class="btn_scrolltop d-none d-sm-block shadow-none" href="#home"><img src="/assets/img/up-arrow.png" alt="scroll"></a>
 
   <!----End Button Scroll-Top-->
 
@@ -45,19 +45,19 @@
           <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item ">
-                <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                <a class="nav-link fs-3 text-white active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  text-white" href="#about">Sobre</a>
+                <a class="nav-link fs-3  text-white" href="#about">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white  " href="#projects">Projetos</a>
+                <a class="nav-link fs-3 text-white  " href="#projects">Projetos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white " href="#contact">Contato</a>
+                <a class="nav-link fs-3 text-white " href="#contact">Contato</a>
               </li>
             </ul>
-            <a id="btn_curriculo" class="btn col-4 align-self-center rounded-3 mb-3 "
+            <a id="btn_curriculo" class="btn col-2 align-self-center rounded-3 mb-3  fw-bold fs-5"
               href="/assets/curriculo/CV - Leandro Rodrigues.pdf" download="Currículo" role="button">
               <i class="bi bi-download"></i> Currículo</a>
 
@@ -68,17 +68,17 @@
 
       <!-- Hero -->
       <div class="text-center mb-3 ">
-        <img src="/assets/img/hero.jpeg" class=" w-50 mt-5  rounded-circle" alt="imagem hero">
-        <h1 class="mb-3 mt-5">Leandro Rodrigues</h1>
-        <h4 class="mb-5">Desenvolvedor Frontend</h4>
-        <div>
-          <a class="btn " href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
+        <img src="/assets/img/hero.jpeg" class="w-25 mt-5  rounded-circle" alt="imagem hero">
+        <h1 class="mb-3 mt-5 fs-3 mt-xl-3 mb-lg-2">Leandro Rodrigues</h1>
+        <h4 class="mb-5 mb-lg-2">Desenvolvedor Frontend</h4>
+        <div class="mt-lg-2">
+          <a class="btn rounded-circle " href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
             <i class="bi bi-linkedin"></i>
           </a>
-          <a class="btn " href="https://github.com/lefrodrigues" role="button">
+          <a class="btn rounded-circle" href="https://github.com/lefrodrigues" role="button">
             <i class="bi bi-github"></i>
           </a>
-          <a class="btn "
+          <a class="btn rounded-circle "
             href="https://api.whatsapp.com/send?phone=5513992074483&text=Ol%C3%A1,%20esse%20%C3%A9%20o%20contato%20de%20Leandro%20Rodrigues,%20envie%20sua%20mensagem."
             role="button">
             <i class="bi bi-whatsapp"></i>
@@ -89,12 +89,10 @@
   </section> <!----Section About--->
   <div id="about">
     <div class="container">
-
-
       <h1 class="title_about text-center p-3">Sobre Mim</h1>
-      <div class="m-3">
+      <div class="m-3 ">
         <img src="/assets/img/sobre.jpeg" alt="" class=" float-start me-3 rounded-3 w-25">
-        <p class="lead">
+        <p class="lead fs-3">
           Sou Leandro, iniciando a carreira de Desenvolvedor Frontend, buscando a primeira oportunidade no
           mercado de desenvolvimento web. Atualmente, estou cursando Desenvolvimento de Sistemas na Fatec-BS,
           em Santos. Para atender as demandas do mercado, estudo as tecnologias mais utilizadas do mercado,
@@ -102,24 +100,20 @@
           própria documentação oficial da linguagem ou framework.
           As tecnologias que atualmente utilizo são HTML5, CSS3, Javascript e Bootstrap5, pretendo consolidar cada vez
           mais essa base de conhecimento e me aperfeiçoar em ReactJS, o qual já possuo algumas noções básicas.
-
         </p>
-
       </div>
-
-
       </section>
       <!----End About--->
 
       <!----Section Projects--->
 
       <section id="projects">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-12 mb-3">
-              <h1 class="p-2 text-center">Projetos</h1>
+              <h1 class="p-2  p-lg-0 mt-lg-2 text-center">Projetos</h1>
             </div>
-            <div class="d-flex justify-content-evenly p-3 mb-4">
+            <div class="d-flex  d-lg-none justify-content-evenly p-3 mb-4  ">
               <div class="img_skills bg-transparent img-fluid"><img src="/assets/img/html-5.png" href="html5">
               </div>
               <div class="img_skills img-fluid"><img src="/assets/img/css-3.png" href="css3">
@@ -129,14 +123,18 @@
               <div class="img_skills img-fluid"><img src="/assets/img/bootstrap.png" href="bootstrap5">
               </div>
             </div>
-
-
             <!----Carousel--->
-            <div class="container">
+            <div class="container-fluid mt-lg-2">
               <div id="banner" class="carousel slide carousel-fade">
                 <div class="carousel-inner" style="height: 30em;">
                   <div class="carousel-item h-100 active"
                     style="background: url(/assets/img/project1.png) center/contain no-repeat;">
+                    <div class="carousel-caption d-none  d-md-block">
+                      <a class="text-decoration-none me-2 text-white fs-3 fw-bold"
+                        href="https://myformlogin.netlify.app/">Demo</a>
+                      <a class="text-decoration-none  ms-2 text-white fs-3  fw-bold"
+                        href="https://github.com/lefrodrigues/portfolio">Código</a>
+                    </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
@@ -149,16 +147,17 @@
                 </div>
 
                 <!----End Carousel--->
-                <div class="col-12 ">
-                  <div class=" text-center  ">
-                    <a class="btn " href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
+                <div class="col-12 mt-md-5 mt-lg-3 ">
+                  <div class=" text-center ">
+                    <a class="btn rounded-circle " href="https://www.linkedin.com/in/leandro-f-rodrigues/"
+                      role="button">
                       <i class="bi bi-linkedin"></i>
 
                     </a>
-                    <a class="btn " href="https://github.com/lefrodrigues" role="button">
+                    <a class="btn rounded-circle " href="https://github.com/lefrodrigues" role="button">
                       <i class="bi bi-github"></i>
                     </a>
-                    <a class="btn "
+                    <a class="btn rounded-circle "
                       href="https://api.whatsapp.com/send?phone=5513992074483&text=Ol%C3%A1,%20esse%20%C3%A9%20o%20contato%20de%20Leandro%20Rodrigues,%20envie%20sua%20mensagem."
                       role="button">
                       <i class="bi bi-whatsapp"></i>
@@ -167,48 +166,44 @@
                 </div>
               </div>
             </div>
-
-
       </section>
       <!----Section Contact--->
 
       <section id="contact">
-        <div class="container">
-          <div class="row">
+        <div class="container-fluid">
+          <div class="row mb-lg-3">
             <div class="col-12">
-              <h1 class="text-center p-4 ">Fale Comigo</h1>
+              <h1 class="text-center p-4 mt-lg-3">Fale Comigo</h1>
             </div>
 
             <!-- Links -->
-            <div class="col-12  ">
-              <div class="text-center mt-3">
-                <p><i class="bi bi-person"></i> Leandro Rodrigues</p>
-                <p><i class="bi bi-geo-alt"></i></i> Jd.Castelo, Santos-SP</p>
-                <p><i class="bi bi-envelope"></i> l.frodrigues@outlook.com</p>
-                <p><i class="bi bi-telephone"></i> (13) 99207-4483</p>
+
+            <div class="col-12 col-lg-6   ">
+              <div class="text-center  mt-3 ">
+                <p class="fs-4"><i class="bi bi-person"></i> Leandro Rodrigues</p>
+                <p class="fs-4"><i class="bi bi-geo-alt"></i></i> Jd.Castelo, Santos-SP</p>
+                <p class="fs-4"><i class="bi bi-envelope"></i> l.frodrigues@outlook.com</p>
+                <p class="fs-4"><i class="bi bi-telephone"></i> (13) 99207-4483</p>
               </div>
               <div class="text-center">
-                <a class="btn " href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
+                <a class="btn rounded-circle " href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
                   <i class="bi bi-linkedin"></i>
-
                 </a>
-                <a class="btn " href="https://github.com/lefrodrigues" role="button">
+                <a class="btn rounded-circle " href="https://github.com/lefrodrigues" role="button">
                   <i class="bi bi-github"></i>
                 </a>
-                <a class="btn "
+                <a class="btn rounded-circle"
                   href="https://api.whatsapp.com/send?phone=5513992074483&text=Ol%C3%A1,%20esse%20%C3%A9%20o%20contato%20de%20Leandro%20Rodrigues,%20envie%20sua%20mensagem."
                   role="button">
                   <i class="bi bi-whatsapp"></i>
                 </a>
               </div>
             </div>
-
-            <form class="mt-5" action="https://formsubmit.co/l.frodrigues@outlook.com" method="POST">
+            <form class="mt-5 col-lg-6 mb-lg-3 " action="https://formsubmit.co/l.frodrigues@outlook.com" method="POST">
 
               <!-- Name input -->
               <div class="form-outline ">
                 <input type="text" id="formLabel" name="name" required placeholder="Nome" class="form-control mb-3" />
-
               </div>
 
               <!-- Email input -->
@@ -221,11 +216,11 @@
               <div class="form-outline ">
                 <textarea class="form-control mb-3" id="formTextArea" name="message" placeholder="Mensagem" required
                   rows="6"></textarea>
-
               </div>
 
               <!-- Submit button -->
-              <button type=" submit" id="btn_send" class="btn btn-block"> Enviar <i class="bi bi-send"></i>
+              <button type=" submit" id="btn_send" class="btn fw-bold fs-5 btn-block rounded-3"> Enviar <i
+                  class="bi bi-send"></i>
               </button>
             </form>
           </div>
@@ -236,52 +231,38 @@
     <!----End Contact--->
     <!----Footer--->
 
-    <footer class="container footer ">
+    <footer class="container-fluid  footer  ">
 
-      <div class="row me-2 ms-2">
+      <div class="row m-sm-0  me-2 ms-2">
         <div class="col-4 mt-2">
-          <a class="navbar-brand text-white" href="#home">
+          <a class="navbar-brand text-white text-lg-center" href="#home">
             <h1>Lea<span>n</span>dro<span>.</span></h1>
           </a>
-          <div class="mb-3">
-            <a class="btn " href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
-              <i class="bi bi-linkedin"></i>
 
-            </a>
-            <a class="btn " href="https://github.com/lefrodrigues" role="button">
-              <i class="bi bi-github"></i>
-            </a>
-            <a class="btn "
-              href="https://api.whatsapp.com/send?phone=5513992074483&text=Ol%C3%A1,%20esse%20%C3%A9%20o%20contato%20de%20Leandro%20Rodrigues,%20envie%20sua%20mensagem."
-              role="button">
-              <i class="bi bi-whatsapp"></i>
-            </a>
-          </div>
         </div>
         <div class="col-4  ">
           <div class="menu_footer">
-            <h5 class="text-uppercase text-white fw-bold mb-2 mt-2"> Links</h5>
+            <h5 class="text-uppercase text-white fs-5 fw-bold mb-2 mt-2"> Links</h5>
 
             <div class="d-flex flex-column ">
-              <a href="#home" class=" text-decoration-none  text-white">Home</a>
+              <a href="#home" class=" text-decoration-none  fs-5 fw-bold text-white">Home</a>
 
-              <a href="#about" class="text-decoration-none  text-white">Sobre</a>
+              <a href="#about" class="text-decoration-none fs-5 fw-bold  text-white">Sobre</a>
 
-              <a href="#projects" class="text-decoration-none text-white">Projetos</a>
+              <a href="#projects" class="text-decoration-none fs-5 fw-bold  text-white">Projetos</a>
 
-              <a href="#contact" class="text-decoration-none text-white">Contato</a>
+              <a href="#contact" class="text-decoration-none fs-5 fw-bold  text-white">Contato</a>
             </div>
           </div>
         </div>
-        <a id="btn_curriculo" class="btn col-4 align-self-center mb-3 "
+        <a id="btn_curriculo"
+          class="btn col-4  col-lg-2 align-self-center mb-3 align-self-md-end fw-bold fs-5 rounded-3"
           href="/assets/curriculo/CV - Leandro Rodrigues.pdf" download="Currículo" role="button">
           <i class="bi bi-download"></i> Currículo</a>
     </footer>
-    <div id="copyright" class=" col-12 m-0 text-center p-4 bg-dark">
+    <div id="copyright" class=" col-12 m-0 text-center p-4 fs-4 bg-dark">
       © 2023 Copyright: Desenvolvido por Leandro Rodrigues
     </div>
-
-
     <!---- End Footer--->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

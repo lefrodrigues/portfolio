@@ -1,44 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
 
+:root {
+  --bgcolor: #352c2c;
+  --colorsec: #ff0000;
+  --colorwhite: #ffff;
+  --shadow: #7e7e7e;
+  --bgfooter: #464646;
+}
+
 /*----Tags---*/
 
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #352c2c;
+  background-color: var(--bgcolor);
   font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
 
 span {
-  color: #ff0000;
+  color: var(--colorsec);
 }
-h1 {
-  color: white;
-}
-
-h2 {
-  color: white;
-  font-size: 24px;
+h1,
+h4,
+p {
+  color: var(--colorwhite);
 }
 
-h4 {
-  color: white;
-}
 form {
   width: 300px;
-}
-
-p {
-  color: white;
-  font-size: 1em;
-}
-
-section {
-  box-shadow: 0px 3px 10px #464646;
-  width: 100%;
-  height: 100vh;
 }
 
 /*----End Tags---*/
@@ -46,9 +37,8 @@ section {
 /*----Buttons---*/
 
 .btn {
-  background-color: #ff0000;
-  color: white;
-  border-radius: 50%;
+  background-color: var(--colorsec);
+  color: var(--colorwhite);
 }
 
 .btn_scrolltop {
@@ -58,64 +48,52 @@ section {
 }
 
 #btn_curriculo {
-  background-color: #ff0000;
-  border-radius: 3px;
-  font-weight: 700;
+  background-color: var(--colorsec);
 }
 #btn_send {
-  background-color: #ff0000;
-  border-radius: 3px;
-  font-weight: 700;
+  background-color: var(--colorsec);
 }
 /*---- End Buttons---*/
 
 /*----Home---*/
 
+#home {
+  width: 100%;
+  height: 100vh;
+}
+
 .navbar-brand {
   font-size: 40px;
   font-weight: 600;
-  color: white;
+  color: var(--colorwhite);
 }
 
 .nav-link {
-  font-size: 20px;
   transition: all 0.3s;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: #ff0000 !important;
+  color: var(--colorsec) !important;
 }
 
-.img-fluid {
-  box-shadow: 0px 3px 10px #7e7e7e;
+img {
+  box-shadow: 0px 3px 10px var(--shadow);
 }
 
 /*----End Home---*/
 
 /*----About---*/
 
+#about {
+  width: 100%;
+  height: 100vh;
+}
+
 .img_about img {
   width: 200px;
   margin-bottom: 20px;
   border-radius: 5%;
-  box-shadow: 0px 3px 10px #7e7e7e;
-}
-
-.content_about {
-  align-content: center;
-}
-
-.text_about {
-  margin: 20px;
-  border: 1px solid #ffff;
-  border-radius: 8px;
-  margin-bottom: 140px;
-}
-
-.text_about p {
-  padding: 3rem;
-  padding-bottom: 8rem;
-  margin-bottom: 10px;
+  box-shadow: 0px 3px 10px var(--shadow);
 }
 
 /*----End About---*/
@@ -137,7 +115,7 @@ section {
 }
 
 .form-label {
-  color: white;
+  color: var(--colorwhite);
 }
 
 /*----End Contact---*/
@@ -145,20 +123,19 @@ section {
 /*----Footer---*/
 
 .footer {
-  background-color: #464646;
+  background-color: var(--bgfooter);
 }
 
 #copyright {
-  color: white;
+  color: var(--colorwhite);
 }
 
 .menu_footer {
-  font-size: 20px;
   transition: all 0.3s;
 }
 
 .menu_footer a:hover {
-  color: #ff0000 !important;
+  color: var(--colorsec) !important;
 }
 
 /*----End Footer---*/
