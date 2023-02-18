@@ -44,10 +44,9 @@ p {
 }
 
 .btn_social-media {
-  vertical-align: middle;
   position: fixed;
+  z-index: 1000;
   top: 50%;
-  margin-left: 10px;
 }
 
 .btn_scrolltop {

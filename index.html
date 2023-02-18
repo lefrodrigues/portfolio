@@ -24,27 +24,21 @@
 
 <body>
   <!----Button Scroll-Top-->
-  <a class="btn_scrolltop d-none d-sm-block" href="#home"><img src="/assets/img/up-arrow.png" alt="scroll"></a>
+  <a class="btn_scrolltop d-sm-none d-block" href="#home"><img src="/assets/img/up-arrow.png" alt="scroll"></a>
 
   <!---Button Social Media-->
-  <div class="btn_social-media">
-    <div>
-      <a class="btn rounded-circle mb-2" href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
-        <i class="bi bi-linkedin"></i>
-      </a>
-    </div>
-    <div>
-      <a class="btn rounded-circle mb-2 " href="https://github.com/lefrodrigues" role="button">
-        <i class="bi bi-github"></i>
-      </a>
-    </div>
-    <div>
-      <a class="btn rounded-circle"
-        href="https://api.whatsapp.com/send?phone=5513992074483&text=Ol%C3%A1,%20esse%20%C3%A9%20o%20contato%20de%20Leandro%20Rodrigues,%20envie%20sua%20mensagem."
-        role="button">
-        <i class="bi bi-whatsapp"></i>
-      </a>
-    </div>
+  <div class="btn_social-media d-none d-md-flex ms-2 btn-group-vertical">
+    <a class="btn rounded-circle mb-2" href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a class="btn rounded-circle mb-2 " href="https://github.com/lefrodrigues" role="button">
+      <i class="bi bi-github"></i>
+    </a>
+    <a class="btn rounded-circle"
+      href="https://api.whatsapp.com/send?phone=5513992074483&text=Ol%C3%A1,%20esse%20%C3%A9%20o%20contato%20de%20Leandro%20Rodrigues,%20envie%20sua%20mensagem."
+      role="button">
+      <i class="bi bi-whatsapp"></i>
+    </a>
   </div>
 
   <!----Section Home-->
@@ -55,7 +49,7 @@
       <nav class="navbar  navbar-expand-lg navbar-light ">
         <div class="container-fluid">
           <a class="navbar-brand  text-white" href="#">Lea<span>n</span>dro<span>.</span></a>
-          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
@@ -76,12 +70,16 @@
               </li>
             </ul>
 
-            <!--Button Curriculo Navbar-->
-            <a id="btn_curriculo" class="btn col-2 align-self-center rounded-3 mb-3  fw-bold fs-5"
+            <a id="btn_curriculo"
+              class="btn col-12 col-sm-12 col-md-4 col-lg-2 align-self-center rounded-3 mb-3  fw-bold fs-5"
               href="/assets/curriculo/CV - Leandro Rodrigues.pdf" download="Currículo" role="button">
               <i class="bi bi-download"></i> Currículo</a>
 
+
+
           </div>
+          <!--Button Curriculo Navbar-->
+
         </div>
       </nav>
       <!----End Navbar--->
@@ -89,8 +87,27 @@
       <!-- Hero -->
       <div class="text-center mb-3 ">
         <img src="/assets/img/hero.jpeg" class="w-25 mt-5  rounded-circle" alt="imagem hero">
-        <h1 class="mb-3 mt-5 fs-2 mt-xl-3 mb-lg-2">Leandro Rodrigues</h1>
-        <h4 class="mb-5 mb-lg-2">Desenvolvedor Frontend</h4>
+        <h1 class="mb-3 mt-5 fs-2 mt-xl-3  mb-lg-4">Leandro Rodrigues</h1>
+        <h4 class="mb-3 mb-lg-2">Desenvolvedor Frontend</h4>
+      </div>
+      <div class="btn_socialMedia text-center  mb-4  d-flex justify-content-center d-md-none">
+        <div>
+          <a class="btn rounded-circle me-2 " href="https://www.linkedin.com/in/leandro-f-rodrigues/" role="button">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+        <div>
+          <a class="btn rounded-circle me-2  " href="https://github.com/lefrodrigues" role="button">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+        <div>
+          <a class="btn rounded-circle"
+            href="https://api.whatsapp.com/send?phone=5513992074483&text=Ol%C3%A1,%20esse%20%C3%A9%20o%20contato%20de%20Leandro%20Rodrigues,%20envie%20sua%20mensagem."
+            role="button">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+        </div>
       </div>
     </header> <!-- End Hero -->
   </section> <!----Section About--->
@@ -136,7 +153,7 @@
             <!--Cards Projects-->
             <div class="container mx-auto mt-4">
               <div class="row">
-                <div class="col-md-4">
+                <div class=" col-md-4">
                   <div class="card" style="width: 18rem;">
                     <img src="/assets/img/project1.png" class="card-img-top" alt="form_login">
                     <div class="card-body">
