@@ -1,3 +1,6 @@
+
+![image](https://user-images.githubusercontent.com/97368754/219883995-8d1e666b-e3bd-4b55-9d19-e10f95891ed3.png)
+
 # portfolio
 
 Olá,
