@@ -93,6 +93,11 @@ img {
 .card-body {
   background-color: var(--bgcard);
 }
+
+.card-img-top {
+  width: 100%;
+  height: 220px;
+}
 /*----End Projects---*/
 
 /*----Contact---*/
